@@ -1,0 +1,76 @@
+
+  input{
+    margin: 20px;
+    font-size: inherit;
+    width: 97%;
+    background-color: papayawhip;
+    border-top:none;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+    
+  
+  }
+  
+  form {
+    
+    padding: 20px;
+    width: 500px;
+    
+    background-color: papayawhip;
+    height: 90%;
+    font-size:20px ;
+  }
+  h1{
+    text-align: center;
+    color: blue;
+  }
+  a{
+    float: right;
+  }
+  button{
+    margin-left: 60px;
+    width: 70%;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    opacity: 50%;
+  }
+  button:hover{
+    opacity: 100%;
+  }
+  
+   .my-element {
+    display: flex;
+    background-color: antiquewhite;
+    margin: 30px;
+    content: "\f09a"; /* FontAwesome icon unicode */
+    font-family: "Font Awesome 5 Brands"; /* Specify the FontAwesome font-family */
+    
+  }
+  
+  .my-element:active {
+    /* Styles for the icon when the element is active/clicked */
+    color: red;
+  }
+  
+  .my-element:hover {
+    /* Styles for the icon when the mouse is over the element */
+    width: 20px; height: 20px;
+    background-color:darkblue;
+    color: white;
+    opacity: 0.8;
+  }
+  
+  a.my-element:visited {
+    /* Styles for the icon when the link has been visited */
+    text-decoration: line-through;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
